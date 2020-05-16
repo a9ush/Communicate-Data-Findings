@@ -5,7 +5,7 @@ Udacity's Data Analyst Nanodegree - Project 5
 
 ### Dataset
 
-Bay Wheels (previously known as Ford GoBike) is bike sharing system in the San Francisco Bay Area, California.. The dataset used for this exploratory analysis consists of monthly individual trip data from year 2017 in CSV format covering the greater San Francisco Bay area, also available here.
+Bay Wheels  is bike sharing system in the San Francisco. The dataset  consists of monthly individual trip data from year 2017 in CSV format covering the greater San Francisco Bay area.
 
 ### Data wrangling process:
 fix multiple fields that are not in the correct dtype, i.e. start_time, end_time should be datetime type, user_type 
@@ -24,6 +24,4 @@ filter out outlier trip records where the duration was very long
 
 - slide_deck_template.ipynb - This Jupyter Notebook contains starter cells to help you organize your slide deck deliverable. These cells provide an example of how the slide deck should be organized, including pre-set slideshow settings.
 
-To view the slide deck, you will need to use the expression (all one line):
-jupyter nbconvert Example_Project_Diamonds_Part2.ipynb --to slides --post serve --template output_toggle
 
